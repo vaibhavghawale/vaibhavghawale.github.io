@@ -1,0 +1,10 @@
+*{
+    margin:0 ;
+    padding: 0;
+    /* background-color: black; */
+}
+.port-main{
+    width: 90%;
+    height: 1000px;
+    border: 2px green;
+}
