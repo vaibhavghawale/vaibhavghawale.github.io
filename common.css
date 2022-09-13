@@ -171,7 +171,7 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url("https://www.wallpapertip.com/wmimgs/83-838381_html-wallpaper-background-code-coding-tags.jpg") no-repeat center;
+  background: url("./src/background.gif") no-repeat center;
   background-color: #111;
   height: 100vh;
   color: #fff;
@@ -179,12 +179,16 @@ section .title::after {
   background-size: cover;
   background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
-  display: block;
+  justify-content: space-between;
+}
+
+.vaibhav-pic{
+  width: 80%;
 }
 
 #Heading{
   margin-top: 2%;
-  margin-left:2% ;
+  margin-left:6.5% ;
 }
 #Heading>p{
   font-size: 40px;
@@ -192,7 +196,7 @@ section .title::after {
 }
 /* about section styling */
 .about{
- background-image: url("https://images.unsplash.com/photo-1599239663833-4c1cdc22892a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80");
+ background-image: url("./src/aboutbg.avif");
  background-size: cover;
   background-attachment: fixed;
 }
@@ -241,7 +245,7 @@ section .title::after {
   background: none;
 }
 .about .title::after {
-  background-image: url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
+  background-image: url("./src/bg3.avif");
   color: red;
 }
 
@@ -651,16 +655,6 @@ footer span a:hover {
     display: inline-block;
     margin: 20px 0;
     font-size: 25px;
-  }
-  .home .home-content .text-2 {
-    font-size: 70px;
-  }
-  .home .home-content .text-3 {
-    font-size: 35px;
-  }
-  .home .home-content a {
-    font-size: 23px;
-    padding: 10px 30px;
   }
   .max-width {
     max-width: 930px;
