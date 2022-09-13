@@ -19,11 +19,10 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Vaibhav<span>Ghawale</span></a></div>
+            <div class="logo"><a href="">Port<span>folio</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-             
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#project" class="menu-btn">Projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
@@ -36,26 +35,31 @@
 
     <!-- home section start -->
     <section class="home" id="home">
-       <div id="Heading">
-       <p>Hi My Name is</p>
-       <p>Vaibhav Ghawale</p>
-       <p class="my-prof">i'm java Backend Developer</p>
-       </div>
-       <div>
-        <img src="./src/vaibhav.png"  alt="vaibhav photo" class="vaibhav-pic">
-       </div>
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hi, my name is</div>
+                <div class="text-2">Vaibhav Ghawale</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="./src/Vaibhav-Ghawale-Resume.pdf" download="download_resume" id="resume-btn">Resume</a>
+            </div>
+        </div>
     </section>
 
     <!-- about section start -->
     <section class="about" id="about">
-    
+        <div>
+            <h2 class="title">About me</h2>
+            <img src="./src/vaibhav.png" alt="vaibhav ghawale" class="my-pic">
+            <p class="about-me">A passionate JAVA Back-End Developer, Dedicated to developing robust applications that interact with the Backend part of web applications. Extensive expertise in website architecture, design, web design, and web API designs. I'm also an enthusiastic learner who's constantly working to learn new things and improve my skills to be the best version of myself.</p>
+        </div>
+
     </section>
 
     <!-- services section start -->
     <section class="services" id="services">
-        <!-- <div class="max-width">
+
             <h2 class="title">My services</h2>
-            <div class="serv-content">
+            <div class="serv-content ">
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
@@ -78,8 +82,6 @@
                     </div>
                 </div>
                </div>
-            </div>
-        </div> -->
     </section>
 
     <!-- skills section start -->
@@ -87,44 +89,35 @@
         <div class="max-width">
             <h2 class="title">My skills</h2>
             <div class="skills-content">
-
-                    <!-- <div class="column left">
-
-                    <div class="skills-images">
-                        <img src="https://www.jedecore.com/gif/internet/java.gif" alt="">
+                <div id="skils-content-1">
+                    <div class="skill-1">
+                        <img src="./src/javalogo.png" alt="">
                     </div>
-
-                    <div class="skills-images">
-                        <img src="https://www.javatpoint.com/images/hibernate/hibernate2.png" alt="">
+                    <div class="skill-1">
+                        <img src="./src/hibarnatelogo.png" alt="">
                     </div>
-
-                    
-                    <div class="skills-images">
-                        <img src="data:image/png;base64,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" alt="">
+                    <div class="skill-1">
+                        <img src="./src/mysqllogo.png" alt="">
                     </div>
-
-                    
-                    <div class="skills-images">
-                        <img src="https://qph.cf2.quoracdn.net/main-qimg-8315cb308b890c7087edfc088043f572" alt="">
+                    <div class="skill-1">
+                        <img src="./src/springbootlogo.png" alt="">
                     </div>
-
+                    <div class="skill-1">
+                        <img src="./src/jslogo.png" alt="">
+                    </div>
+                    <div class="skill-1">
+                        <img src="./src/htmllogo.webp" alt="">
+                    </div>
+                    <div class="skill-1">
+                        <img src="./src/csslogo.png" alt="">
+                    </div>
+                    <div class="skill-1">
+                        <img src="./src/springbootlogo.png" alt="">
+                    </div>
+                    <div class="skill-1">
+                        <img src="./src/javalogo.png" alt="">
+                    </div>
                 </div>
-                <div class="column right"> -->
-                    <!-- <div class="skills-images">
-                        <img src="https://s37613.pcdn.co/wp-content/uploads/2019/03/Megaport-SDN-AWS.gif" alt="">
-                    </div>
-
-                    <div class="skills-images">
-                        <img src="https://media1.giphy.com/avatars/mwooodward/cIe5MvDvX4Vc.gif" alt="">
-                    </div>
-
-                    <div class="skills-images">
-                        <img src="https://cdn.dribbble.com/users/783/screenshots/104300/shot_1295820312.gif" alt="">
-                    </div>
-
-                    <div class="skills-images">
-                        <img src="data:image/png;base64,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" alt="">
-                    </div> -->
 
                 </div>
             </div>
@@ -175,9 +168,14 @@
         <div class="max-width">
             <h2 class="title">Contact me</h2>
             <div class="contact-content">
+                <div class="cont-box"><img src="./src/linkedin.png" alt=""><h2>Linkedin</h2></div>
+                <div class="cont-box"><img src="./src/GitHublogo.png" alt="" ><h2>Github</h2></div>
+                <div class="cont-box"><img src="./src/mail.png" alt="" ><h2>vaibhavghawale007@gmail.com</h2></div>
+                <div class="cont-box"><img src="./src/phone.png" alt="" ><h2>+91 8554958977</h2></div>
+                <div class="cont-box"><img src="./src/tweet.png" alt="" ><h2>Twitter</h2></div>
             </div>
         </div>
-    </section>
+    </section>`
 
     <!-- footer section start -->
     <footer>
@@ -185,6 +183,6 @@
 </span>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./common.js"></script>
 </body>
 </html>
