@@ -256,8 +256,9 @@ section .title::after {
 .services .title::after,
 .project .title::after {
   background: #111;
-  content: "What I Provide";
+  /* content: "What I Provide"; */
 }
+
 .services .serv-content .card {
   width: calc(33% - 20px);
   background: #222;
@@ -374,6 +375,55 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
+/*<-------------Edcuation--------------->*/
+
+.edu-logo{
+  width: 35%;
+}
+
+/*   project   */
+
+.project-main{
+  display: flex;
+  justify-content:center;
+  width: 60%;
+  border: 2px solid rgb(71, 255, 80);
+  padding: 2%;
+  gap: 5%;
+  margin-top: 5%;
+}
+.inside-1>img{
+
+  width: 350px;
+  height: 350px;
+}
+.resume-btn{
+width: 30%;
+height: 25%;
+margin-top: 2%;
+border: 1px solid rgb(71, 255, 80);
+background-color:transparent;
+color: #fff;
+text-align: center;
+font-size:25px;
+margin-left: 20%;
+padding: 2%;
+}
+.resp-proj{
+  margin-bottom: 5%;
+}
+.resume-btn:hover{
+cursor: pointer;
+background-color:rgb(71, 255, 80) ;
+color: #000;
+transition: 2s;
+}
+.resume-btn:active{
+  opacity: 0;
+  z-index: -1;
+  transform: scaleX(1.1) scaleY(1.3);
+  transition: transform 0.3s, opacity 0.3s;
+}
 
 
 /* contact section styling */
@@ -401,13 +451,11 @@ footer span a:hover {
 
 .cont-box{
   width: 100%;
-  align-items: center;
-  display: flex;
-  /* justify-content: center; */
   border-radius: 10px;
   transform: translateX(400%);
   transition: transform 0.5s ease;
-  gap: 30px;
+  margin-left: 20%;
+
 }
 .cont-box>img{
   width: 50px;
