@@ -6,71 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .project-main{
-            display: flex;
-            justify-content: space-between;
-            gap: 5%;
-            width: 60%;
-            border: 2px solid rgb(71, 255, 80);
-            padding: 2%;
-        }
-        .inside-1>img{
-
-            width: 100%;
-            height: 100%;
-        }
-        .resume-btn{
-        width: 30%;
-        height: 25%;
-        margin-top: 2%;
-        border: 1px solid rgb(71, 255, 80);
-        background-color:transparent;
-        color: #fff;
-        text-align: center;
-        font-size:25px;
-        margin-left: 20%;
-        }
-        .resume-btn:hover{
-        cursor: pointer;
-        background-color:rgb(71, 255, 80) ;
-        color: #000;
-        transition: 2s;
-        }
-        .resume-btn:active{
-            opacity: 0;
-            z-index: -1;
-            transform: scaleX(1.1) scaleY(1.3);
-            transition: transform 0.3s, opacity 0.3s;
+        .skill-pic{
+            width: 80px;
         }
     </style>
 </head>
 <body>
-    
-    <div class="project-main">
-        <div class="inside-1">
-            <img src="./src/cm1.png" alt="">
-        </div>
-        <div class="inside-2">
-            <div>
-                <h2>CAMPAIGNMONITOR.COM (CLONE)</h2>
-            </div>
-            <div>
-                <p>
-                    Campaign Monitor Web helped us easily create beautiful emails that
-                    turned our Bombshell wetsuit into a global phenomenon.
-                </p>
-                <p>
-                    Tech Stack: HTML | CSS | JS
-                </p>
-                <p>
-                    My Responsibilities
-                    front-end and backend database.
-                </p>
-                <a href="" class="resume-btn">Github</a>
-                <a href="" class="resume-btn">Live</a>
-            </div>
-        </div>
+  
+    <div>
+        <img class="skill-pic" id="sk-pic1" src="./src/javalogo.png" alt="">
+        <img class="skill-pic" id="sk-pic2" src="./src/hibarnatelogo.png" alt="">
+        <img class="skill-pic" id="sk-pic3" src="./src/springbootlogo.png" alt="">
     </div>
 
 </body>
-</html></html>
+</html>
+<script>
+
+
+    let id;
+
+function confirm(){
+ 
+   id= setTimeout(()=>{
+    document.querySelector("#sk-pic1").src="./src/javalogo.png"
+    document.querySelector("#sk-pic2").src="./src/javalogo.png"
+    document.querySelector("#sk-pic3").src="./src/javalogo.png"
+    console.log(1)
+    },2000)
+    id= setTimeout(()=>{
+    document.querySelector("#sk-pic1").src="./src/javalogo.png"
+    document.querySelector("#sk-pic2").src="./src/javalogo.png"
+    document.querySelector("#sk-pic3").src="./src/javalogo.png"
+    console.log(1)
+    },4000)
+    id=  setTimeout(()=>{
+    document.querySelector("#sk-pic1").src="./src/javalogo.png"
+    document.querySelector("#sk-pic2").src="./src/javalogo.png"
+    document.querySelector("#sk-pic3").src="./src/javalogo.png"
+    console.log(1)
+    confirm();
+    },6000)
+    }
+confirm()
+</script>
