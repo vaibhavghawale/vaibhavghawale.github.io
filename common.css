@@ -431,6 +431,9 @@ transition: 2s;
 
 
 /* contact section styling */
+.contact-content-1{
+  margin-left: 28%;
+}
 
 .contact .title::after {
   content: "get in touch";
@@ -474,7 +477,43 @@ footer span a:hover {
 .cont-box.show{
   transform : translateX(0);
 }
+.my-cont{
+  width: 75%;
+  display: block;
+}
 
+
+.my-cont>.cont-box-1{
+  width: 81%;
+  text-align: justify;
+  display: flex;
+  margin-top: 3%;
+  border: 2px solid;
+  padding: 1.5%;
+  background-color: #000;
+}
+.my-cont>.cont-box-1>img{
+  width: 45px;
+  margin-right: 5%;
+}
+
+.my-cont>.cont-box-1>img+h2{
+  margin-top: 4%;
+  color: #111;
+}
+.my-cont>.cont-box-1>img+h2>a{
+  color: #111;
+}
+.my-cont>.cont-box-1:hover{
+  cursor: pointer;
+
+}
+.my-cont>.cont-box-1>img+h2{
+  color:wheat;
+}
+.my-cont>.cont-box-1>img+h2>a{
+  color: wheat;
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {
