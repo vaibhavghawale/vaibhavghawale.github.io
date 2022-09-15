@@ -239,7 +239,7 @@ section .title::after {
   background-attachment: fixed;
 }
 .my-pic{
-  border: 2px solid;
+  /* border: 2px solid; */
   text-align: center;
 /* display: flex;
 justify-content:center;
