@@ -88,3 +88,62 @@ $(document).ready(function () {
       },
     });
   });
+
+  function show(){
+    window.location.href="mailto:vaibhavghawale007@gmail.com?subject=regarding hiring";
+  }
+  let abt_img=document.querySelector(".abt-img-1").addEventListener("click",show)
+
+  function show1(){
+    // window.location.href="//github.com/thecodervaibhav";
+    window.open('https://github.com/thecodervaibhav', '_blank');
+  }
+
+  let abt_img_1=document.querySelector(".abt-img-2").addEventListener("click",show1)
+
+  function show2(){
+
+    window.open("https://www.linkedin.com/in/vaibhavghawale15", "_blank");
+    
+  }
+
+  let abt_img_2=document.querySelector(".abt-img-3").addEventListener("click",show2)
+
+  function show3(){
+    // window.location.href="https://twitter.com/VaibhavGhawale";
+    window.open('https://twitter.com/VaibhavGhawale', '_blank');
+  }
+
+  let abt_img_3=document.querySelector(".abt-img-4").addEventListener("click",show3)
+
+
+  // conatct section 
+
+
+  function contshow(){
+    window.location.href="mailto:vaibhavghawale007@gmail.com?subject=regarding hiring";
+  }
+  let my_cont=document.querySelector(".cont-box-b").addEventListener("click",contshow)
+
+  function contshow1(){
+    // window.location.href="//github.com/thecodervaibhav";
+    window.open('https://github.com/thecodervaibhav', '_blank');
+  }
+
+  let my_cont_1=document.querySelector(".cont-box-d").addEventListener("click",contshow1)
+
+  function contshow2(){
+
+    window.open("https://www.linkedin.com/in/vaibhavghawale15", "_blank");
+    
+  }
+
+  let my_cont_2=document.querySelector(".cont-box-c").addEventListener("click",contshow2)
+
+  function contshow3(){
+    // window.location.href="https://twitter.com/VaibhavGhawale";
+    window.open('https://twitter.com/VaibhavGhawale', '_blank');
+  }
+
+  let my_cont_3=document.querySelector(".cont-box-e").addEventListener("click",contshow3)
+
