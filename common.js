@@ -147,3 +147,43 @@ $(document).ready(function () {
 
   let my_cont_3=document.querySelector(".cont-box-e").addEventListener("click",contshow3)
 
+
+
+  function Live11(){
+    window.open('https://github.com/Abrar2003/symptomatic-property-4004', '_blank');
+  }
+  let pr1g=document.querySelector(".pr1g").addEventListener("click",Live11)
+
+  function Live12(){
+    window.open('https://jade-sawine-5e8a26.netlify.app/', '_blank');
+  }
+  let pr1l=document.querySelector(".pr1l").addEventListener("click",Live12)
+
+
+  function Live21(){
+    window.open('https://github.com/AmitKuMaurya/LifeStyle-Collaboration', '_blank');
+  }
+  let pr2g=document.querySelector(".pr2g").addEventListener("click",Live21)
+
+  function Live22(){
+    window.open('https://ubiquitous-moonbeam-0077c0.netlify.app/', '_blank');
+  }
+  let pr2l=document.querySelector(".pr2l").addEventListener("click",Live22)
+
+
+  
+  function Live31(){
+    window.open('https://github.com/thecodervaibhav/Team-App-Monsters.git', '_blank');
+  }
+  let pr3g=document.querySelector(".pr3g").addEventListener("click",Live31)
+
+  function Live32(){
+    window.open('https://reliable-llama-c038f5.netlify.app/', '_blank');
+  }
+  let pr3l=document.querySelector(".pr3l").addEventListener("click",Live32)
+  
+
+
+
+
+

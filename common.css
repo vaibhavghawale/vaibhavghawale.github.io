@@ -405,10 +405,27 @@ width: 50%; */
   transition: all 0.3s ease;
 }
 
-.pro-info{
+.pro-info
+{
   padding: 1rem 0 1rem 0;
 }
+/* .pro-info>a{
+  border: 0;
+  color: #111;
+} */
 
+.pro-info>div{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.pro-info>div>img{
+  width: 50px;
+
+}
 /*<-------------Edcuation--------------->*/
 
 .edu-logo{
@@ -430,6 +447,8 @@ width: 50%; */
   border-radius: 10px;
   transform: translateX(400%);
   transition: transform 1000ms ease-in-out;
+  background-color: #fff;
+  color: #111;
 }
 
 /* .project-main:nth-child(even){
@@ -633,6 +652,11 @@ footer span a:hover {
 .container{
   text-align: center;
 }
+
+.github-st .title::after {
+  content: "see my work";
+}
+
  /* a {
     margin: 10px;
     color: black;
@@ -773,6 +797,8 @@ footer span a:hover {
   }
 
 }
+
+
 
 @media (max-width: 500px) {
   .home .home-content .text-2 {
