@@ -846,4 +846,25 @@ footer span a:hover {
     text-align: center;
   }
 
+  .cont-box-1>img{
+    width: 45px;
+    height: 45px;
+  }
+
+  .github-stat>img{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .pro-info>div>img{
+    width: 50px;
+    height: 50px;
+  
+  }
+
+  .skils-content-1>div{
+    margin-top: 20px;
+  }
+  .skils-content-1>div>img{
+    margin: 5px;
+  }
 }
