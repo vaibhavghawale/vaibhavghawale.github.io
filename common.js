@@ -1,10 +1,10 @@
 
-const boxes = document.querySelectorAll('.cont-box');
+const boxes = document.querySelectorAll('.project-main');
 window.addEventListener('scroll' , checkBoxes);
 checkBoxes()
 function checkBoxes(){
     const triggerBottom = window.innerHeight/5 *4
-
+  console.log(boxes);
     boxes.forEach(box => {
         const boxTop = box.getBoundingClientRect().top
         if(boxTop < triggerBottom){
