@@ -362,6 +362,7 @@ width: 50%; */
   flex-wrap: wrap;
   gap: 2.5rem;;
   width: 100%;
+  justify-content: center;
 
 }
 .skill-1{
@@ -424,6 +425,7 @@ width: 50%; */
 
 .pro-info>div>img{
   width: 50px;
+  height: 50px;
 
 }
 /*<-------------Edcuation--------------->*/
@@ -796,6 +798,38 @@ footer span a:hover {
       font-size: 8px;
   }
 
+  .github-stat {
+    width: 300px;
+    font-size: 8px;
+}
+.container{
+  text-align: center;
+}
+
+.cont-box-1>img{
+  width: 45px;
+  height: 45px;
+}
+
+.github-stat>img{
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 20px;
+}
+.pro-info>div>img{
+  width: 50px;
+  height: 50px;
+
+}
+
+.skils-content-1>div{
+  margin-top: 20px;
+}
+.skils-content-1>div>img{
+  margin: 5px;
+}
+
+
 }
 
 
@@ -852,6 +886,7 @@ footer span a:hover {
   }
 
   .github-stat>img{
+    margin: 0 auto;
     width: 100%;
     margin-top: 20px;
   }
