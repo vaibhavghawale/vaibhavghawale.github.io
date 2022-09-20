@@ -799,7 +799,7 @@ footer span a:hover {
   }
 
   .github-stat {
-    width: 300px;
+    width: 100%;
     font-size: 8px;
 }
 .container{
@@ -828,6 +828,14 @@ footer span a:hover {
 .skils-content-1>div>img{
   margin: 5px;
 }
+
+.github-stats-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  margin-top: 50px;
+  grid-gap: 40px;
+}
+
 
 
 }
@@ -873,7 +881,7 @@ footer span a:hover {
     width: 100%;
   }
   .github-stat {
-      width: 300px;
+      width: 100%;
       font-size: 8px;
   }
   .container{
@@ -902,4 +910,12 @@ footer span a:hover {
   .skils-content-1>div>img{
     margin: 5px;
   }
+
+  .github-stats-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    margin-top: 50px;
+    grid-gap: 40px;
+  }
+
 }
