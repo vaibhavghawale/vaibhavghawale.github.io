@@ -85,6 +85,14 @@ section .title::after {
   transform: translateX(-50%);
 }
 
+.pro-info>.tech-stach{
+
+  background-color: #000;
+  color: #fff;
+  padding: 3px;
+
+}
+
 /* navbar styling */
 .navbar {
   position: fixed;
@@ -96,7 +104,7 @@ section .title::after {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: rgba(71, 255, 80, 0.731);
+  background: rgb(71, 255, 80);
 }
 .navbar .max-width {
   display: flex;
@@ -603,7 +611,7 @@ footer span a:hover {
 
 
 #github-stats {
-    padding: 70px 0;
+    padding: 100px 10px;
 }
 
 .github-stats-list {
@@ -627,6 +635,7 @@ footer span a:hover {
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+    padding: 10px 30px;
 }
 
 .layer {
