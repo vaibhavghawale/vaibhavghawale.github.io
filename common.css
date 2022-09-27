@@ -10,6 +10,13 @@
 body .cont-box{
   overflow-x: hidden;
 }
+
+body .contact-content-1{
+  overflow-x: hidden;
+}
+body .cont-box-1 {
+  overflow-x: hidden;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -322,7 +329,7 @@ width: 50%; */
 
 }
 .abt-img>img{
-  width: 50px;
+  width: 40px;
   margin: 5px;
 }
 .abt-img>img:hover{
@@ -432,8 +439,8 @@ width: 50%; */
 }
 
 .pro-info>div>img{
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 
 }
 /*<-------------Edcuation--------------->*/
@@ -584,7 +591,21 @@ footer span a:hover {
   margin-top: 3%;
   padding: 1.5%;
   background-color: #000;
+
 }
+.cont-box-1{
+  transform: translateX(400%);
+  transition: transform 1000ms ease-in-out;
+}
+.cont-box-1:nth-child(even){
+  transform: translateX(-400%);
+}
+
+
+.cont-box-1.show{
+  transform : translateX(0);
+}
+
 .my-cont>.cont-box-1>img{
   width: 45px;
   margin-right: 5%;

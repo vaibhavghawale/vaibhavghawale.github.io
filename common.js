@@ -15,6 +15,28 @@ function checkBoxes(){
     })
 }
 
+
+const boxeses = document.querySelectorAll('.cont-box-1');
+window.addEventListener('scroll' , checkBoxeses);
+checkBoxeses()
+
+function checkBoxeses(){
+    const triggerBottom = window.innerHeight/5 *4
+  console.log(boxeses);
+    boxeses.forEach(box => {
+        const boxTop = box.getBoundingClientRect().top
+        if(boxTop < triggerBottom){
+            box.classList.add('show')
+        }else{
+            box.classList.remove('show')
+        }
+    })
+}
+
+
+
+
+
 $(document).ready(function () {
     $(window).scroll(function () {
       // sticky navbar on scroll script
