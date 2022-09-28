@@ -33,6 +33,59 @@ function checkBoxeses(){
     })
 }
 
+const boxese = document.querySelectorAll('.skill-1');
+window.addEventListener('scroll' , checkBoxese);
+checkBoxese()
+
+function checkBoxese(){
+    const triggerBottom = window.innerHeight/5 *4
+  console.log(boxese);
+    boxese.forEach(box => {
+        const boxTop = box.getBoundingClientRect().top
+        if(boxTop < triggerBottom){
+            box.classList.add('show')
+        }else{
+            box.classList.remove('show')
+        }
+    })
+}
+
+
+const box = document.querySelectorAll('.skill-2');
+window.addEventListener('scroll' , checkBox);
+checkBox()
+
+function checkBox(){
+    const triggerBottom = window.innerHeight/5 *4
+  console.log(box);
+    box.forEach(box => {
+        const boxTop = box.getBoundingClientRect().top
+        if(boxTop < triggerBottom){
+            box.classList.add('show')
+        }else{
+            box.classList.remove('show')
+        }
+    })
+}
+
+
+const boxes_1 = document.querySelectorAll('.abt-img-c');
+window.addEventListener('scroll' , check);
+check()
+function check(){
+    const triggerBottom = window.innerHeight/5 *4
+  console.log(boxes_1);
+    boxes_1.forEach(box => {
+        const boxTop = box.getBoundingClientRect().top
+        if(boxTop < triggerBottom){
+            box.classList.add('show')
+        }else{
+            box.classList.remove('show')
+        }
+    })
+}
+
+
 
 
 
@@ -168,6 +221,14 @@ $(document).ready(function () {
   }
 
   let my_cont_3=document.querySelector(".cont-box-e").addEventListener("click",contshow3)
+
+
+  function contshow4(){
+    window.open(href="./src/Vaibhav-Ghawale-Resume.pdf");
+    
+  }
+
+  let my_cont_4=document.querySelector(".cont-box-f").addEventListener("click",contshow4)
 
 
 
