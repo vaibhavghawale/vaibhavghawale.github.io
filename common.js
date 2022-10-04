@@ -86,6 +86,23 @@ function check(){
 }
 
 
+const boxes_2 = document.querySelectorAll('.skills-box');
+window.addEventListener('scroll' , check4);
+check4()
+function check4(){
+    const triggerBottom = window.innerHeight/5 *4
+  console.log(boxes_2);
+    boxes_2.forEach(box => {
+        const boxTop = box.getBoundingClientRect().top
+        if(boxTop < triggerBottom){
+            box.classList.add('show')
+        }else{
+            box.classList.remove('show')
+        }
+    })
+}
+
+
 
 
 
