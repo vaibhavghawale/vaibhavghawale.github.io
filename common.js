@@ -33,7 +33,7 @@ function checkBoxeses(){
     })
 }
 
-const boxese = document.querySelectorAll('.skill-1');
+const boxese = document.querySelectorAll('#skills1>#skills-container1>div');
 window.addEventListener('scroll' , checkBoxese);
 checkBoxese()
 
