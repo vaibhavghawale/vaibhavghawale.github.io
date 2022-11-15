@@ -247,7 +247,16 @@ $(document).ready(function () {
 
   let my_cont_4=document.querySelector(".cont-box-f").addEventListener("click",contshow4)
 
+  // pr0g
+  function Live01(){
+    window.open('https://github.com/thecodervaibhav/Bus-Reservation-System-Portal', '_blank');
+  }
+  let pr0g =document.querySelector(".pr0g").addEventListener("click",Live01)
 
+  function Live02(){
+    window.open('https://drive.google.com/file/d/1SKyYtr-p1MhGgEc5MdU6WV8qJAjPl-ZC/view?usp=sharing', '_blank');
+  }
+  let pr0l=document.querySelector(".pr0l").addEventListener("click",Live02)
 
   function Live11(){
     window.open('https://github.com/Abrar2003/symptomatic-property-4004', '_blank');
