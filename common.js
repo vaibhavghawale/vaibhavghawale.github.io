@@ -241,9 +241,16 @@ $(document).ready(function () {
 
 
   function contshow4(){
-    window.open(href="./src/Vaibhav-Ghawale-Resume.pdf"); 
+    window.open(href="https://drive.google.com/file/d/1dePdj0paVfxxc8a6BKpM8wyI6okVUF7R/view?usp=sharing"); 
   }
   let my_cont_4=document.querySelector(".cont-box-f").addEventListener("click",contshow4)
+
+  function contshowopen(){
+    window.open(href="https://drive.google.com/file/d/1dePdj0paVfxxc8a6BKpM8wyI6okVUF7R/view?usp=sharing"); 
+  }
+  let my_cont_hj=document.querySelector(".open-me").addEventListener("click",contshowopen)
+
+
 
   // pr0g
   function Live01(){
