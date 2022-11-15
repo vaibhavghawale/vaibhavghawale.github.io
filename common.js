@@ -241,10 +241,8 @@ $(document).ready(function () {
 
 
   function contshow4(){
-    window.open(href="./src/Vaibhav-Ghawale-Resume.pdf");
-    
+    window.open(href="./src/Vaibhav-Ghawale-Resume.pdf"); 
   }
-
   let my_cont_4=document.querySelector(".cont-box-f").addEventListener("click",contshow4)
 
   // pr0g
