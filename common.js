@@ -187,8 +187,8 @@ $(document).ready(function () {
   let abt_img=document.querySelector(".abt-img-1").addEventListener("click",show)
 
   function show1(){
-    // window.location.href="//github.com/thecodervaibhav";
-    window.open('https://github.com/thecodervaibhav', '_blank');
+    // window.location.href="//github.com/vaibhavghawale";
+    window.open('https://github.com/vaibhavghawale', '_blank');
   }
 
   let abt_img_1=document.querySelector(".abt-img-2").addEventListener("click",show1)
@@ -218,8 +218,8 @@ $(document).ready(function () {
   let my_cont=document.querySelector(".cont-box-b").addEventListener("click",contshow)
 
   function contshow1(){
-    // window.location.href="//github.com/thecodervaibhav";
-    window.open('https://github.com/thecodervaibhav', '_blank');
+    // window.location.href="//github.com/vaibhavghawale";
+    window.open('https://github.com/vaibhavghawale','_blank');
   }
 
   let my_cont_1=document.querySelector(".cont-box-d").addEventListener("click",contshow1)
@@ -254,7 +254,7 @@ $(document).ready(function () {
 
   // pr0g
   function Live01(){
-    window.open('https://github.com/thecodervaibhav/Bus-Reservation-System-Portal', '_blank');
+    window.open('https://github.com/vaibhavghawale/Bus-Reservation-System-Portal', '_blank');
   }
   let pr0g =document.querySelector(".pr0g").addEventListener("click",Live01)
 
@@ -287,7 +287,7 @@ $(document).ready(function () {
 
   
   function Live31(){
-    window.open('https://github.com/thecodervaibhav/Team-App-Monsters.git', '_blank');
+    window.open('https://github.com/vaibhavghawale/Team-App-Monsters.git', '_blank');
   }
   let pr3g=document.querySelector(".pr3g").addEventListener("click",Live31)
 
